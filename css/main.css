@@ -41,3 +41,124 @@ body {
 	background-position: 50% 0;
 	position: relative;
 }
+
+header {
+	background-image: url("../img/top_bg.jpg");
+	min-height: 644px;
+	background-repeat: repeat-x;
+	background-position: top center;
+	position: relative;
+	font-family: "BebasBold";
+}
+.top_line {
+	min-height: 98px;
+	-webkit-box-shadow: rgba(255, 255,255, .3) 0 0 0 1px;
+	box-shadow: rgba(255, 255,255, .3) 0 0 0 1px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .6);
+	padding: 22px 0; 
+}
+
+.top_line a {
+	font-size: 21px;
+	border-bottom: #fff dashed 1px;
+}
+
+.top_line a:hover {
+	border-bottom: transparent 1px dashed;
+	transition: all .25s;
+}
+
+.top-add {
+	padding-left: 50px;
+	background-image: url(../img/top_map.png); 
+	background-repeat: no-repeat;
+	background-position: left top;
+	line-height: 28px;
+
+}
+
+.top-add strong {
+	display: block;
+	color: #d12f22;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 32px;
+}
+header a {
+	color: #fff;
+}
+
+.top_line .logo {
+	border-bottom: none;
+	position: absolute;
+	margin-top: -18px;
+}
+
+.top_line .logo:hover {
+	border-bottom: none;
+}
+
+.logo_wrap {
+	position: relative;
+	width: 240px;
+	margin: auto;
+}
+
+.ta_right {
+	background-image: none;
+	padding-left: 0;
+	text-align: right;
+}
+
+.ta_right span {
+	color: #fff;
+}
+
+header h1 {
+	text-align: center;
+	color: #fff;
+	margin-top: 65px;
+	font-size: 40px;
+	text-shadow: 0 3px rgba(0, 0, 0, 0.55);
+	font-family: "BebasRegular";
+}
+
+.button {
+	display: inline-block;
+	background-color: #d12f22;
+	height: 50px;
+	vertical-align: middle;
+	line-height: 50px;
+	padding: 0 25px;
+	font-size: 20px;
+	border-bottom: #ac160a 4px solid;
+}
+
+header .button {
+	margin-right: 20px;
+}
+
+.st_button {
+	line-height: 18px;
+	padding-top: 7px;
+	text-align: left;
+	padding-left: 63px;
+	background-image: url(../img/foto-icon.png);
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+}
+
+.buttons_top {
+	position: absolute;
+	bottom: 32px;
+	width: 100%;
+}
+
+.button:hover {
+	background-color: #b81609;
+}
+
+.button:active {
+	background-color: #a7190f;
+}
