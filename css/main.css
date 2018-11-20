@@ -307,6 +307,7 @@ section h2 {
 .mc_wrap {
 	text-align: center;
 	padding: 0;
+	position: relative;
 }
 
 .mc_item_wrap {
@@ -325,7 +326,7 @@ section h2 {
 	height: 85px;
 	width: 130px;
 	background-image: url("../img/icon_set.png");
-	margin: 10px auto;
+	margin: 5px auto;
 }
 
 .mc_item_wrap:nth-child(1) {
@@ -360,7 +361,8 @@ section h2 {
 	text-transform: uppercase;
 	font-family: "BebasBold", "Arial", sent-serif;
 	font-size: 20px;
-	margin-top: 10px;
+	margin-top: 5px;
+	margin-bottom: 7px;
 }
 
 .mc_item a:hover h4,
@@ -372,3 +374,59 @@ section h2 {
 .mc_item_wrap:hover {
 	background-color: #2a2a2a;
 }
+
+.mc_toggle {
+	background-color: #212121;
+	position: relative;
+	height: 25px;
+	cursor: pointer;
+	background-image: url("../img/check_set.png");
+	background-repeat: no-repeat;
+	background-position: 75px 9px;
+}
+
+.mc_item_wrap.active .mc_toggle,
+.mc_item_wrap:hover .mc_toggle {
+	background-color: #353535;
+	background-position: -13px 9px;
+}
+
+.mc_wrap .mc_item_wrap > ul {
+	position: absolute;
+	width: auto;
+	text-align: center;
+	background-color: #353535;
+	margin-top: 25px;
+	padding: 0;
+	font-size: 20px;
+	list-style-type: none;
+	padding: 15px 0;
+	z-index: 10;
+	display: none;
+}
+
+.mc_item_wrap > ul li{
+	position: relative;
+	display: inline-block;
+	font-family: "BebasRegular", "Arial", sent-serif;
+	padding: 0;
+	margin: 10px 0 5px;
+	line-height: 20px;
+}
+
+.mc_item_wrap > ul li a {
+	padding: 0 10px;
+	text-decoration: underline;
+}
+
+.mc_item_wrap > ul li:hover a {
+	text-decoration: none;
+}
+
+.main_cards_button .button {
+	color: #ffffff;
+	padding: 0 20px;
+	font-family: "BebasRegular", "Arial", sent-serif;
+	text-transform: uppercase;
+}
+

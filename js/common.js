@@ -123,7 +123,12 @@ $(document).ready(function() {
 		});
 		return false;
 	});
-	
+
+	// Выпадающее меню на секции Main_cards
+
+	$('.mc_toggle').click(function(){
+		$(this).parents('.mc_item_wrap').find('ul').slideToggle();
+	});
 });
 
 // Адаптивные скрипты, которые срабатывают только при определенном разрешении экрана
