@@ -127,6 +127,7 @@ $(document).ready(function() {
 	// Выпадающее меню на секции Main_cards
 
 	$('.mc_toggle').click(function(){
+		$(".mc_item_wrap ul").hide();
 		$(this).parents('.mc_item_wrap').find('ul').slideToggle();
 	});
 });
