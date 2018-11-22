@@ -24,7 +24,7 @@ body textarea:required:valid {
 	
 }
 body {
-	font-family: "RobotoRegular", sans-serif;
+	font-family: "RobotoRegular", Arial, sans-serif;
 	font-size: 16px;
 	min-width: 320px;
 	position: relative;
@@ -48,7 +48,7 @@ header {
 	background-repeat: repeat-x;
 	background-position: top center;
 	position: relative;
-	font-family: "BebasBold";
+	font-family: "BebasBold", Arial, sans-serif;
 }
 .top_line {
 	min-height: 98px;
@@ -71,7 +71,7 @@ header {
 
 .top-add {
 	padding-left: 50px;
-	background-image: url(../img/top_map.png); 
+	background-image: url("../img/top_map.png"); 
 	background-repeat: no-repeat;
 	background-position: left top;
 	line-height: 28px;
@@ -121,7 +121,7 @@ header h1 {
 	margin-top: 65px;
 	font-size: 40px;
 	text-shadow: 0 3px rgba(0, 0, 0, 0.55);
-	font-family: "BebasRegular";
+	font-family: "BebasRegular", Arial, sans-serif;
 }
 
 .button {
@@ -144,7 +144,7 @@ header .button {
 	padding-top: 7px;
 	text-align: left;
 	padding-left: 63px;
-	background-image: url(../img/foto-icon.png);
+	background-image: url("../img/foto-icon.png");
 	background-repeat: no-repeat;
 	background-position: 8px 8px;
 }
@@ -168,7 +168,7 @@ header .button {
 	background-color: #242424;
 	-webkit-box-shadow: rgba(255, 255,255, .3) 0 0 0 1px;
 	box-shadow: rgba(255, 255,255, .3) 0 0 0 1px;
-	font-family: "BebasRegular", "Arial", sent-serif;
+	font-family: "BebasRegular", "Arial", sans-serif;
 	text-transform: uppercase;
 }
 .top_mnu ul {
@@ -190,7 +190,6 @@ header .button {
 
 .top_mnu li {
 	display: inline-block;
-	/*float: left;*/
 }
 
 .top_mnu li.active,
@@ -233,7 +232,7 @@ header .button {
 
 .g_left {
 	font-size: 30px;
-	font-family: "BebasBold", "Arial", sent-serif;
+	font-family: "BebasBold", "Arial", sans-serif;
 	margin-top: 10px;
 	margin-right: 6px;
 }
@@ -250,7 +249,7 @@ header .button {
 }
 
 .g_right {
-	font-family: "RobotoCondensedRegular", "Arial", sent-serif;
+	font-family: "RobotoCondensedRegular", "Arial", sans-serif;
 }
 
 .main_cards {
@@ -261,7 +260,7 @@ header .button {
 .main_cards h2 {
 	text-transform: uppercase;
 	color: #c9c9c9;
-	font-family: "BebasRegular", "Arial", sent-serif;
+	font-family: "BebasRegular", "Arial", sans-serif;
 	font-size: 40px;
 	text-align: center;
 }
@@ -359,7 +358,7 @@ section h2 {
 
 .mc_item h4 {
 	text-transform: uppercase;
-	font-family: "BebasBold", "Arial", sent-serif;
+	font-family: "BebasBold", "Arial", sans-serif;
 	font-size: 20px;
 	margin-top: 5px;
 	margin-bottom: 7px;
@@ -419,7 +418,7 @@ section h2 {
 .mc_item_wrap > ul li{
 	position: relative;
 	display: inline-block;
-	font-family: "BebasRegular", "Arial", sent-serif;
+	font-family: "BebasRegular", "Arial", sans-serif;
 	padding: 0;
 	margin: 10px 0 5px;
 	line-height: 20px;
@@ -437,7 +436,7 @@ section h2 {
 .main_cards_button .button {
 	color: #ffffff;
 	padding: 0 20px;
-	font-family: "BebasRegular", "Arial", sent-serif;
+	font-family: "BebasRegular", "Arial", sans-serif;
 	text-transform: uppercase;
 }
 
@@ -453,7 +452,7 @@ section h2 {
 .header_service h2 {
 	text-transform: uppercase;
 	color: #050505;
-	font-family: "BebasRegular", "Arial", sent-serif;
+	font-family: "BebasRegular", "Arial", sans-serif;
 	font-size: 40px;
 	text-align: center;
 	margin-bottom: 15px;
@@ -506,12 +505,75 @@ section h2 {
 
 .service span {
 	display: block;
-	font-family: "RobotoRegular", "Arial", sent-serif;
+	font-family: "RobotoRegular", "Arial", sans-serif;
 	font-weight: 600;
 	text-align: center;
 	font-size: 14px;
 	margin-top: 25px;
 	max-height: 150px;
+}
+
+.end {
+	font-family: "BebasRegular", Arial, sans-serif;
+	background-color: #ffffff;
+	padding: 30px 0;
+}
+
+.end h2 {
+	font-size: 36px;
+	color: #050505;
+	margin-top: 0;
+}
+
+.end_button a {
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.end_description .end_text {
+	font-family: "RobotoCondensedRegular", Arial, sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 600;
+}
+
+footer {
+	font-family: "BebasRegular", "Arial", sans-serif;
+	color: #ffffff;
+	background-color: #2a2a2a;
+	font-size: 20px;
+}
+
+.footer_block,
+.navigation ul li {
+	display: inline-block;
+}
+
+.copyright {
+	width: 20%;
+}
+
+.navigation {
+	width: 59%;
+	text-align: center;
+}
+
+.navigation ul li {
+	margin-right: 25px;
+}
+
+.navigation ul li a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.navigation ul li:hover a {
+	text-decoration: none;
+}
+
+.some_img {
+	width: 20%;
+	text-align: right;
 }
 
 
