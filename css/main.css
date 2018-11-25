@@ -59,6 +59,12 @@ header {
 	padding: 22px 0; 
 }
 
+.header_flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
 .top_line a {
 	font-size: 21px;
 	border-bottom: #fff dashed 1px;
@@ -75,7 +81,6 @@ header {
 	background-repeat: no-repeat;
 	background-position: left top;
 	line-height: 28px;
-
 }
 
 .top-add strong {
@@ -92,7 +97,7 @@ header a {
 .top_line .logo {
 	border-bottom: none;
 	position: absolute;
-	margin-top: -18px;
+	top: -46px;
 }
 
 .top_line .logo:hover {
